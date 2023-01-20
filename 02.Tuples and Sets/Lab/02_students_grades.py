@@ -30,9 +30,9 @@ for _ in range(number):
 for student, grades in students_grades.items():
 
     average_grades = sum(grades) / len(grades)
-    grades_str = " ".join(map(lambda grade: f"{grade:.2f}", grades))
+    # grades_str = " ".join(map(lambda grade: f"{grade:.2f}", grades))
 
-    print(f"{student} -> {grades_str} (avg: {average_grades:.2f})")
+    print(f"{student} -> {' '.join([str(grade) for grade in grades])} (avg: {average_grades:.2f})")
 
 
 # 7
