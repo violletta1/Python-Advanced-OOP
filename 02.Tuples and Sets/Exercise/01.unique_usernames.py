@@ -1,4 +1,4 @@
-# names_count = int(input())
+names_count = int(input())
 #
 # unique_names = set()
 #
@@ -6,5 +6,7 @@
 #     unique_names.add(input())
 #
 # print(*unique_names, sep="\n")
-#
-print(*{input() for _ in range(int(input()))}, sep="\n")
+
+# print(*{input() for _ in range(int(input()))}, sep="\n")
+
+print(*set(input() for x in range(names_count)), sep="\n")
