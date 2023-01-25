@@ -28,12 +28,9 @@
 #/22222222222222222
 
 n, m = [int(x) for x in input().split(", ")]
+matrix =([[int(x) for x in input().split(", ")] for _ in range(n)])
 
-matrix = []
-result = 0
-for i in range(n):
-    matrix.append([int(x) for x in input().split(", ")])
-    result += sum(matrix[i])
+result= sum(sum(matrix[i]) for i in range(len(matrix)))
 
 
 print(result)
