@@ -166,3 +166,22 @@ if nice_kids_visited == total_nice_kids:  # проверяваме дали вс
     print(f'Good job, Santa! {nice_kids_visited} happy nice kid/s.')  # принтираме
 else:  # ако не всички добри деца са получили подаръци
     print(f'No presents for {total_nice_kids - nice_kids_visited} nice kid/s.')  # принтираме
+
+
+
+#input
+# 3
+# 4
+# - - - -
+# V - X -
+# - V C V
+# - - - S
+# left
+# up
+#output
+# Santa ran out of presents!
+# - - - -
+# V - - -
+# - - S -
+# - - - -
+# No presents for 1 nice kid/s.

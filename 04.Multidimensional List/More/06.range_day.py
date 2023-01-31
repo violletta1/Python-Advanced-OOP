@@ -154,3 +154,18 @@ if targets_hit < targets:  # проверяваме дали са останал
     print(f'Training not completed! {targets - targets_hit} targets left.')  # принтираме неуспешно завършено обучение
 
 [print(target_pos) for target_pos in targets_hit_positions]  # принтираме позициите на свалените мишени
+#print(*targets_hit_positions, sep="\n")
+
+#input
+# . . . . .
+# . . . . .
+# . . x . .
+# . . . . .
+# . x . . A
+# 3
+# shoot down
+# move right 2
+# shoot left
+#output
+# Training not completed! 1 targets left.
+# [4, 1]
