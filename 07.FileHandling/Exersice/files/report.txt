@@ -1,0 +1,15 @@
+.py
+- - -directlry_traversal.py
+- - -even_lines.py
+- - -file_manipulator.py
+- - -line_numbers.py
+- - -ned.py
+.rar
+- - -homework-V.rar
+.txt
+- - -output.txt
+- - -report.txt
+- - -report.txt
+- - -soggge.txt
+- - -some.txt
+- - -text.txt
