@@ -1,6 +1,5 @@
 from math import ceil
 
-
 class PhotoAlbum:
     PHOTOS_ON_A_PAGE = 4
 
