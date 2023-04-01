@@ -1,7 +1,8 @@
 from typing import List
 
-from project import Animal
+
 from project import Worker
+from project.animal import Animal
 
 
 class Zoo:
