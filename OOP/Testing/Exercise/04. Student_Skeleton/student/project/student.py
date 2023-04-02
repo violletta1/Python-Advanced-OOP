@@ -21,10 +21,12 @@ class Student:
         if course_name in self.courses.keys():
             self.courses[course_name].append(notes)
             return "Notes have been updated"
+
         raise Exception("Cannot add notes. Course not found.")
 
     def leave_course(self, course_name):
         if course_name in self.courses.keys():
             self.courses.pop(course_name)
             return "Course has been removed"
+
         raise Exception("Cannot remove course. Course not found.")
